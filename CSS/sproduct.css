@@ -1,0 +1,98 @@
+#navbar li a:hover,
+#navbar li a.active2{
+  color: #15c0b4;
+}
+
+#navbar li a.active2::after,
+#navbar li a:hover::after{
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: #15c0b4;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+/* Product Details */
+
+#main_image{
+    width: 100%;
+}
+.small_image{
+    width: 100%;
+}
+#pro_details{
+    display: flex;
+    margin-top: 20px;
+}
+#pro_details .single_pro_image{
+    flex-basis: 35%;
+    width: 35%;
+    margin-right: 50px;
+}
+#pro_details .single_pro_details{
+    flex-basis: 65%;
+    width: 65%;
+    padding-top: 30px;
+}
+.small_image_group{
+    display: flex;
+    justify-content: space-between;
+}
+.small_image_column{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.single_pro_details h4{
+    padding: 40px 0 40px 0;
+}
+.single_pro_details h2{
+    font-size: 26px;
+}
+.single_pro_details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.single_pro_details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.single_pro_details input:focus{
+    outline: none;
+}
+.single_pro_details button{
+    background-color: #15c0b4;
+    color: #fff;
+}
+.single_pro_details span{
+    line-height: 25px;
+
+}
+.single_pro_image h6{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/* Start Media Query for mobile */
+
+@media (max-width:477px) {
+    #pro_details {
+        display: flex;
+        flex-direction: column;
+    }
+    #pro_details .single_pro_image {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #pro_details .single_pro_details {
+        width: 100%;
+    }
+}

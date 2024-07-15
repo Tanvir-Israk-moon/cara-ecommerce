@@ -1,0 +1,6 @@
+.sidebar .navbar .navbar-nav .nav-link1:hover,
+.sidebar .navbar .navbar-nav .nav-link1.active {
+    color: #b9b9b9;
+    background: #FFFFFF;
+    border-color: var(--primary);
+}

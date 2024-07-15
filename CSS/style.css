@@ -1,0 +1,400 @@
+#navbar li a:hover,
+#navbar li a.active1{
+  color: #15c0b4;
+}
+
+#navbar li a.active1::after,
+#navbar li a:hover::after{
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: #15c0b4;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+/*Home Page*/
+
+#hero{
+  background-image: url("../img/hero4.png");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero h4{
+  padding-bottom: 15px;
+}
+#hero h1{
+  color: #15c0b4;
+  padding-bottom: 15px;
+}
+#hero button{
+  background-image: url('../img/button.png');
+  background-color: transparent;
+  color: #15c0b4;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* Feature Start */
+
+#feature{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.fe-box {
+  width: 150px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 0px 0px 34px #67676747;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  margin: 15px 0;
+  transition: 0.4s ease;
+}
+.fe-box:hover{
+  box-shadow: 0px 0px 34px #00000047;
+  scale: 1.02;
+}
+.fe-box h6{
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #15c0b4;
+}
+.fe-box:nth-child(1) h6{
+  background-color: #DBF4F6;
+}
+.fe-box:nth-child(2) h6{
+  background-color: #e98ec532;
+}.fe-box:nth-child(3) h6{
+  background-color: #EAF5D8;
+}.fe-box:nth-child(4) h6{
+  background-color: #B8D9ED;
+}.fe-box:nth-child(5) h6{
+  background-color: #D0C7ED;
+}.fe-box:nth-child(6) h6{
+  background-color: #F6E5DB;
+}
+.fe-box img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+#product1{
+  text-align: center;
+}
+.pro-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #15c0b52f;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease-in-out;
+  position: relative;
+}
+.pro:hover{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+  scale: 1.02;
+}
+.pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+.des{
+  text-align: start;
+  padding: 10px 0 5px 0;
+}
+.des span{
+  color: #606063;
+}
+.des h5{
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+.des .fa-star{
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+.des h4{
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #15c0b4;
+}
+.star_price_cart{
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+  padding-top: 10px;
+}
+.star_price{
+  flex-basis: 85%;
+}
+.cart{
+  flex-basis: 15%;
+}
+.cart_icon{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #15c0b4;
+  color: #fff;
+  font-weight: 500;
+  border: 1px solid #cce7d0;
+  padding-left: 10px;
+  transition: 0.4s ease;
+}
+.cart_icon:hover{
+  background-color: rgb(243, 181, 25);
+  color: #00ffee;
+}
+#banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/banner/b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+#banner h4{
+  color: white;
+  font-size: 16px;
+}
+#banner h2{
+  color: white;
+  font-size: 30px;
+  padding: 10px 0;
+}
+#banner h2 span{
+  color: #ef3636;
+}
+#banner button:hover{
+  background: #15c0b4;
+  color: white;
+}
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.banner-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("../img/banner/b17.jpg");
+  width: 48.5%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+.banner-box2{
+  background-image: url("../img/banner/b10.jpg");
+}
+#sm-banner h4{
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+#sm-banner h2{
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+}
+#sm-banner span{
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+button.white:hover{
+  border-color: #15c0b4;
+  background-color: #15c0b4;
+}
+#banner3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+.banner3-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("../img/banner/b7.jpg");
+  width: 32%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.banner3-box2{
+  background-image: url("../img/banner/b4.jpg");
+}
+.banner3-box3{
+  background-image: url("../img/banner/b18.jpg");
+}
+#banner3 h2{
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+#banner3 h3{
+  color: #E3E6F3;
+  font-weight: 700;
+  font-size: 15px;
+}
+#banner3 span{
+  color: #ef3636;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+
+/* Start Media Query for pad */
+
+
+@media (max-width:767px) {
+
+  
+  /* hero section responsive */
+
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  /* feature section responsive */
+
+  #feature {
+    justify-content: center;
+  }
+  .fe-box {
+    margin: 15px;
+  }
+
+  /* products responsive */
+
+  .pro-container {
+    justify-content: space-evenly;
+  }
+  .pro {
+    margin: 15px;
+  }
+
+  /* banner responsive */
+
+  #banner {
+    height: 20vh;
+  }
+  .banner-box2 {
+    margin-top: 20px;
+  }
+
+  /* small banner responsive */
+
+  .banner-box {
+    width: 100%;
+    height: 30vh;
+  }
+  #banner3{
+    padding: 0 40px;
+  }
+  .banner3-box {
+    width: 30%;
+  }
+  .banner3-box h2{
+    line-height: 30px;
+  }
+  #banner3 h3 {
+    line-height: 25px;
+  }
+
+}
+
+/* Start Media Query for mobile */
+
+@media (max-width: 477px) {
+
+  /* hero section responsive */
+
+  #hero {
+    padding: 0 20px;
+    background-position: 57%;
+  }
+  #hero p{
+    width: 60%;
+  }
+  
+  /* feature section responsive */
+  
+  .fe-box {
+    width: 150px;
+    margin: 0 0 15px 0;
+  }
+  #feature {
+    justify-content: space-around;
+  }
+
+  /* products responsive */
+  
+  .pro {
+    width: 100%;
+  }
+
+  /* banner responsive */
+
+  #banner {
+    height: 30vh;
+  }
+  #banner h2 {
+    font-size: 30px;
+    padding: 10px 10px;
+  }
+
+  /* small banner responsive */
+
+  .banner-box {
+    height: 40vh;
+  }
+  .banner-box2 {
+    margin-top: 20px;
+  }
+  #banner3 {
+    padding: 0 20px;
+  }
+  .banner3-box {
+    width: 100%;
+  }
+
+}

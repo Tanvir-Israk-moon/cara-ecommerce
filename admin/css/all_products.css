@@ -1,0 +1,12 @@
+.details_td{
+    display: inline-block;
+    font-size: 11px;
+}
+tr td{
+    padding: 10px !important;
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+

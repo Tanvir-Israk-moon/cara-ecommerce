@@ -1,0 +1,27 @@
+.sidebar .navbar .navbar-nav .nav-link3:hover,
+.sidebar .navbar .navbar-nav .nav-link3.active {
+    color: #b9b9b9;
+    background: #FFFFFF;
+    border-color: var(--primary);
+}
+
+.btn-warning:hover{
+    background-color: red;
+    color: #FFFFFF;
+}
+
+.approved{
+    background-color: #26ABFF !important;
+}
+.rejected{
+    color: red;
+}
+.selected_table{
+    background-color: #E1E4E6;
+    color: #ff0000;
+}
+
+td:last-child{
+    display: flex;
+    justify-content: space-around;
+}
